@@ -1,0 +1,1 @@
+console.log("3- simdi de js dosyasindan html e implement");
