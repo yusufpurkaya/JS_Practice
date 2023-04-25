@@ -3,28 +3,40 @@ User Name
 User TCNo
 User Age
 
-name should not be null
-TCNo should be 11 length
-Age should be higther than 18
-
-if user matches all condition 
-can be premium
-however 
-if user name is empty take name again one more time
-if TCNo doent match our condition take one more time again
-if user is under 18  give a message " come x year later"
-
-and user can not be premium user
-
+and if user enter correct data she can be a member
 
 */
+/*
+let name1=prompt("please enter your name");
+let age=Number(prompt("how old are you"));
+let TCNo=prompt("what is your TCNo ");
 
 function userKnowledge(name1,age,TCNo){
+   if(name1!=""){
+if (age>18) {
+
+    if(TCNo.length==11){ 
+        console.log(" ok you can be our member ");
+    }
     
+}else{
+    console.log("your age is not enough  :)  ")
 }
 
 
 
+   }
+   else if(name1==""){
+    console.log("");
+   }
+
+
+
+}
+
+
+
+*/
 
 
 
